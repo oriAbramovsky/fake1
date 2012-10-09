@@ -19,6 +19,8 @@ public class Test1 {
 	Selenium selenium;
 	String baseUrl;
 	
+	// fake added
+	
 	@Before //this happens before runing the test
 	public void setUp() throws Exception {
 		myDriver = Main.getFireDriver();
